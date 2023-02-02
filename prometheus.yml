@@ -2,7 +2,7 @@
 global:
   scrape_interval: 10s
 
-alertng:
+alerting:
   alertmanagers:
   - static_configs:
     - targets: ['localhost:9093']
